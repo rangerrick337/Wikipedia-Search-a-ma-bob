@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#search-section {
+  display: flex;
+  margin: 5px;
+}
+
+input {
+  margin: 8px;
+}
+
+button {
+  margin: 8px;
+}
+
+li {
+  list-style-type: none;
+  border: 2px;
+  background-color: lightgrey;
+  margin: 10px;
+  padding: 3px;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 10px;
+}
